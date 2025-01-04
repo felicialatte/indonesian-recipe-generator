@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -24,7 +25,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="recipe-generator">
           <input
             type="text"
             placeholder="Enter the topic of the recipe"
@@ -35,11 +36,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe">
-          The recipe will go here
-          <br />
-          and here
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
 
       <footer>
