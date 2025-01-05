@@ -1,5 +1,5 @@
 body {
-  background-color: #e7d7de;
+  background-color: #efebc4;
   font-family: "Outfit", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #884a65;
+  color: #f3161e;
 }
 
 .container {
@@ -24,14 +24,14 @@ h1 {
   font-weight: 800;
   font-size: 50px;
   line-height: 1.5;
-  color: #884a65;
+  color: #f3161e;
 }
 
 h2 {
   text-align: left;
   font-weight: 400;
   font-size: 20px;
-  color: rgba(45, 2, 24, 0.6);
+  color: rgba(47, 3, 3, 0.7);
 }
 
 form {
@@ -59,7 +59,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #884a65;
+  background: #f3161e;
   width: 150px;
   font-size: 16px;
   color: white;
@@ -77,7 +77,7 @@ form {
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #884a65;
+  border-left: 3px solid #f3161e;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
@@ -85,4 +85,5 @@ footer {
   text-align: center;
   font-size: 14px;
   margin-top: 30px;
+  color: rgba(47, 3, 3, 0.7);
 }
